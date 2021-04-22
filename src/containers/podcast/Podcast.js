@@ -28,12 +28,7 @@ export default function Podcast() {
           {podcastSection.podcast.map((podcastLink, i) => {
             return (
               <div key={i}>
-                <iframe
-                  className="podcast"
-                  src={podcastLink}
-                  frameBorder="0"
-                  scrolling="no"
-                ></iframe>
+              
               </div>
             );
           })}
