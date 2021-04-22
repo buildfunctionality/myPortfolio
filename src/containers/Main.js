@@ -18,6 +18,7 @@ import Twitter from "./twitter-embed/twitter";
 import {StyleProvider} from "../contexts/StyleContext";
 import "./Main.css";
 import Profile from "./profile/Profile";
+import MenuOs from './menuOS/MenuOS';
 
 export default class Main extends Component {
   constructor(props) {
@@ -56,13 +57,14 @@ export default class Main extends Component {
           <Projects />
           <StartupProject />
           <Achievement />
-          <Blogs />
+        
           <Talks />
           <Twitter />
           <Podcast />
           <Profile />
           <Footer />
           <Top />
+          <MenuOs/>
         </StyleProvider>
       </div>
     );

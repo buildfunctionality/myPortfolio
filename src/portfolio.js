@@ -45,7 +45,7 @@ const skillsSection = {
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Azure"
+      "⚡ Integration of third party services such  AWS / Azure"
     )
   ],
 
@@ -143,9 +143,22 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
+      company: "Distillery",
+      companylogo: require("./assets/images/distillery-logo-twitter.png"),
+      date: "April 2021 –  Present",
+      desc:
+        "Working for external client's and internal proyects.",
+      descBullets: [
+        "Custom building applications",
+        "Learning Languages",
+        "POC with new technology"
+      ]
+    },
+    {
+      role: "Software Engineer",
       company: "Overactive",
       companylogo: require("./assets/images/EGI3ni8XUAEd7n6.jpg"),
-      date: "June 2020 – Present",
+      date: "June 2020 – April 2021",
       desc:
         "Working for external client's and internal proyects.",
       descBullets: [
@@ -341,7 +354,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "1111 1111",
+  number: "54 351 2297341",
   email_address: "romeroalejandroantonio@hotmail.com.ar"
 };
 
@@ -349,7 +362,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "disparador13", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
